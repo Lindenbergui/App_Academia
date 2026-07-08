@@ -50,9 +50,9 @@ def main(page: ft.Page):
 
 
 
-ft.run(
+ft.app(
 
-    main,
+    target=main,
 
     assets_dir="assets"
 
